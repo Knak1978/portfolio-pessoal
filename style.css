@@ -1,0 +1,117 @@
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto como Arial, se não disponível, utiliza a fonte sans-serif */
+    margin: 0; /* Remove a margem padrão do navegador */
+    padding: 0; /* Remove o preenchimento padrão do navegador */
+    line-height: 1.6; /* Define o espaçamento entre as linhas de texto para 1.6 vezes o tamanho da fonte */
+    scroll-behavior: smooth; /* Aplica um efeito de rolagem suave ao navegar entre os links internos */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #333; /* Cor de fundo escura (cinza escuro) */
+    color: #fff; /* Cor do texto branca */
+    padding: 1em 0; /* Adiciona um espaçamento interno de 1em (superior e inferior) */
+    position: sticky; /* Faz com que o cabeçalho fique fixo no topo ao rolar a página */
+    top: 0; /* Posiciona o cabeçalho no topo da página */
+    z-index: 1000; /* Garante que o cabeçalho fique sobre outros elementos com z-index menor */
+}
+
+/* Estilo da lista de navegação dentro do cabeçalho */
+header nav ul {
+    list-style: none; /* Remove os marcadores (bolinhas) da lista */
+    display: flex; /* Exibe os itens da lista em linha (horizontalmente) */
+    justify-content: center; /* Centraliza os itens de navegação */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    margin: 0; /* Remove a margem padrão da lista */
+}
+
+/* Estilo dos itens de navegação dentro da lista */
+header nav ul li {
+    margin: 0 15px; /* Adiciona um espaço de 15px à esquerda e à direita de cada item da lista */
+}
+
+/* Estilo dos links dentro dos itens da lista */
+header nav ul li a {
+    color: #fff; /* Define a cor do texto dos links como branca */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Define o texto dos links em negrito */
+}
+
+/* Estilo geral das seções da página */
+section {
+    padding: 50px 20px; /* Adiciona espaçamento interno de 50px nas laterais e 20px nas extremidades */
+    border-bottom: 1px solid #ddd; /* Adiciona uma linha de borda cinza claro entre as seções */
+}
+
+/* Estilo específico para a seção "Sobre mim" */
+#sobre {
+    background-color: #fff; /* Cor de fundo branca */
+    color: #333; /* Cor do texto cinza escuro */
+}
+
+/* Estilo específico para a seção "Formação" */
+#formacao {
+    background-color: #f7fbfc; /* Cor de fundo azul claro muito suave */
+    color: #333; /* Cor do texto cinza escuro */
+}
+
+/* Estilo específico para a seção "Portfólio" */
+#portfolio {
+    background-color: #dee6ea; /* Cor de fundo azul claro suave */
+    color: #333; /* Cor do texto cinza escuro */
+}
+
+/* Estilo específico para a seção "Contato" */
+#contato {
+    background-color: #d8e3e875; /* Cor de fundo com tonalidade de azul claro */
+    color: #333; /* Cor do texto cinza escuro */
+}
+
+/* Estilo para os títulos dentro das seções */
+section h1 {
+    font-size: 2em; /* Define o tamanho da fonte como 2 vezes o tamanho padrão */
+    margin-bottom: 10px; /* Adiciona um espaço de 10px abaixo do título */
+}
+
+/* Estilo do rodapé */
+footer {
+    background: #333; /* Cor de fundo cinza escuro */
+    color: #fff; /* Cor do texto branca */
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 10px 0; /* Adiciona 10px de espaçamento interno na parte superior e inferior */
+}
+
+/* Estilo do formulário */
+form {
+    max-width: 400px; /* Limita a largura do formulário a 400px */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+}
+
+/* Estilo para os rótulos (labels) dentro do formulário */
+form label {
+    display: block; /* Faz com que o rótulo ocupe toda a largura disponível */
+    margin-top: 10px; /* Adiciona 10px de espaço acima do rótulo */
+}
+
+/* Estilo para os campos de entrada (input), áreas de texto (textarea) e botões (button) */
+form input, form textarea, form button {
+    width: 100%; /* Faz com que os campos ocupem toda a largura do formulário */
+    margin-top: 5px; /* Adiciona 5px de espaço acima de cada campo */
+    padding: 10px; /* Adiciona 10px de preenchimento interno dentro de cada campo */
+    border: 1px solid #ccc; /* Define uma borda de 1px cinza claro em torno de cada campo */
+    border-radius: 5px; /* Arredonda as bordas dos campos */
+}
+
+/* Estilo específico para o botão do formulário */
+form button {
+    background-color: #333; /* Cor de fundo cinza escuro */
+    color: #fff; /* Cor do texto branca */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+}
+
+/* Estilo para o botão quando o usuário passa o mouse sobre ele */
+form button:hover {
+    background-color: #555; /* Torna o fundo do botão mais claro quando o mouse passa sobre ele */
+}
